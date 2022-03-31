@@ -1,0 +1,15 @@
+.tape{
+    position: absolute;
+    width: 682px;
+    height: 335px;
+    left: 606px;
+    top: 345px;
+}
+
+.large_tape{
+    position: absolute;
+    width: 1038px;
+    height: 689px;
+    left: 402px;
+    top: 1107px;
+}
