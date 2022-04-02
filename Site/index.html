@@ -4,6 +4,7 @@
         <meta charset="utf-8">     
         <title>Zutterman - measure tapes</title>
         <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="scripts.js"></script>
         <link href='https://fonts.googleapis.com/css?family=Roboto%20Condensed' rel='stylesheet' type='text/css'>
     </head>
 
@@ -14,13 +15,13 @@
                 <!--Para fins de responsividade-->
                 <div class="botao">
                     <div class="dropdown">
-                        <img src="img/dots.png">
-                    <div id="menu-mobile" class="dropdown-content">
-                        <p>About Us</p>
-                        <p>Models</p>
-                        <p>Guarantee</p>
+                        <img id="dot" src="img/dots.png" onclick="cliqueMenu()">
+                        <div id="menu-mobile" class="dropdown-content">
+                            <a href="#"><li>About Us<br><br></li></a>
+                            <a href="#"><li>Models<br><br></li></a>
+                            <a href="#"><li>Guarantee</li></a>
+                        </div>
                     </div>
-                </div>
                 </div>
 
                 <div class="box1">
@@ -38,9 +39,9 @@
 
             <div id="header-right">
                 <ul>
-                    <li>About Us</li>
-                    <li>Models</li>
-                    <li>Guarantee</li>
+                    <a href="#"><li>About Us</li></a>
+                    <a href="#"><li>Models</li></a>
+                    <a href="#"><li>Guarantee</li></a>
                 </ul>
             </div>
         </div>        
