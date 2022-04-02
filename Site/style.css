@@ -94,7 +94,7 @@ header li{
 .img-box1{
     width:682px;
     height: 335px;
-    /* background-image:url(img/tape.png); */
+    background-image:url(img/tape.png);
     mix-blend-mode: multiply;
 }
 
@@ -250,33 +250,50 @@ header li{
 
 
     /*Banner 1*/
-    .banner-1{
+    .banner1{
         flex-direction: column;
         align-items:flex-end;
     }
 
     .banner1-texto{
         margin:0px;
+        text-align: left;
+        padding-left: 30px;
     }
 
     .alinhamento{
-        width: 100%;
+        width: 100%;        
     }
 
     .img-box1{
         width: 100%;
+        mix-blend-mode: multiply;
     }
 
 
     /*Banner 2 */
     .banner2{
         flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
     }
     .banner2-titulo{
         width: 84%;
+        font-size: 4.2rem;
     }
     .banner2-texto{
         width: 84%;
+        font-size: 2.7rem;
+    }
+
+    .img-box2{
+        position: relative;
+        background-image:url(img/largetape_mobile.png);
+        mix-blend-mode: multiply;
+        width: 450px;
+        height: 299px;
+        right: 0;
+        top: 0;
     }
 
     /*Rodapé*/
