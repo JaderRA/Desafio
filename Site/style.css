@@ -42,10 +42,6 @@ header li{
     padding: 20px;
 }
 
-.caixa{
-    width:fit-content !important;
-}
-
 .box1{
     width:fit-content !important;
     display: flex;
@@ -98,7 +94,7 @@ header li{
 .img-box1{
     width:682px;
     height: 335px;
-    background-image:url(img/tape.png);
+    /* background-image:url(img/tape.png); */
     mix-blend-mode: multiply;
 }
 
@@ -200,12 +196,77 @@ header li{
 
 /*Responsividade*/
 
+/*Ocultar em Desktop*/
+@media screen and (min-width: 601px){
+    .botao{
+        display: none;
+    }
+
+    .cabecalho-3{
+       display: none;
+    }
+}
+
+/*Ocultar em Mobile*/
 @media screen and (max-width: 600px){
 
     /*Navegação*/
-    #navegacao div{
+
+    #header-right{
         display: none;
     }
+
+    #header-left{
+        width: 100% !important;
+        margin: 0px !important;
+    }
+
+    #navegacao div{
+        margin: 2% 0 2% 0;
+    }
+
+    .box1{
+        width: 50%;
+        
+    }
+
+    .box2{
+        display: none;
+    }
+
+    .botao{
+        width: 10%;
+        height: 70px;
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+        padding-left: 20px;
+    }
+
+    .cabecalho-3{
+        width: 25%;
+        height: 100%;
+    }
+
+
+    /*Banner 1*/
+    .banner-1{
+        flex-direction: column;
+        align-items:flex-end;
+    }
+
+    .banner1-texto{
+        margin:0px;
+    }
+
+    .alinhamento{
+        width: 100%;
+    }
+
+    .img-box1{
+        width: 100%;
+    }
+
 
     /*Banner 2 */
     .banner2{
