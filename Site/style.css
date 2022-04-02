@@ -40,11 +40,9 @@ header li{
     list-style-type:none;
     display: inline;
     padding: 20px;
-
 }
 
 .caixa{
-
     width:fit-content !important;
 }
 
@@ -203,10 +201,13 @@ header li{
 /*Responsividade*/
 
 @media screen and (max-width: 600px){
+
+    /*Navegação*/
     #navegacao div{
         display: none;
     }
 
+    /*Banner 2 */
     .banner2{
         flex-direction: column;
     }
@@ -216,4 +217,38 @@ header li{
     .banner2-texto{
         width: 84%;
     }
+
+    /*Rodapé*/
+    .rodape{
+        flex-direction:column;
+        height: 350px;
+    }
+
+    .rodape h3{
+        text-align:center;
+    }
+
+    .rodape p{
+        text-align: center;
+    }
+
+    #rodape a{
+        margin: 8px;
+    }
+
+    .rodape-1{
+        width: 100%;
+        height: 50%;
+    }
+
+    .rodape-2{
+        width: 100%;
+        height: 50%;
+        align-items: center;
+    }
+
+    .rodape-3{
+        display:none;
+    }
+
 }
