@@ -173,19 +173,34 @@ header li{
 }
 
 .rodape-1{
+    width: 25%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    align-items: flex-start;
-    padding: 0px 0px 5px 100px;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .rodape-2{
+    width: 25%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: left;
-    align-items: flex-start;
-    padding: 0px 0px 5px 250px;
+    align-items: end;
+}
+
+.rodape-3{
+    width: 50%;
+    height: 100%;
+}
+
+#agrupamento-1{
+    display: inline-block;
+}
+
+#agrupamento-1 div{
+    position: relative;
 }
 
 /*Responsividade*/
