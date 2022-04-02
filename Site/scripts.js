@@ -1,3 +1,4 @@
 function cliqueMenu(){
-    document.getElementById("dot");
+    document.getElementById("menu-mobile").classList.toggle("dropdown-hide")
+    document.getElementById("menu-mobile").classList.toggle("dropdown-show")
 }

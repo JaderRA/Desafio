@@ -243,7 +243,6 @@ header li{
         letter-spacing: 5.4px;
         text-transform: uppercase;    
         color: #846219;
-        display: none;
         position: absolute;
         background-color: #f9f9f9;
         min-width: 160px;
@@ -252,7 +251,11 @@ header li{
         z-index: 1;
     }
 
-    .dropdown:hover .dropdown-content {
+    .dropdown-hide{
+        display: none;
+    }
+
+    .dropdown-show{
         display: block;
     }
 
